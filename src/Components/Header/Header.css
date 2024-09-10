@@ -1,0 +1,48 @@
+/* Estilo do container principal do header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .header-titulo h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: left;
+  }
+
+.header-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-botao i {
+    margin-right: 8px;
+    font-size: 1.5rem; 
+  }
+  
+  .header-botao:hover {
+    background-color: #218838; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-botao:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
